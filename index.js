@@ -134,10 +134,10 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-   if (parseInt(e.which) === LEFT_ARROW){e.preventDefault();
+   if (e.which === LEFT_ARROW){e.preventDefault();
      moveDodgerLeft();
    e.stopPropagation();};
-   else if (parseInt(e.which) === RIGHT_ARROW){e.preventDefault();
+   else if (e.which === RIGHT_ARROW){e.preventDefault();
      moveDodgerRight();
    e.stopPropagation();};
 }
