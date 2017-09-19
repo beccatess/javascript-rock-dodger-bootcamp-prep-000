@@ -98,7 +98,6 @@ if(checkCollision()){endGame()};
      */
 if(rock.style.top === 360){ROCKS[x].remove()
   }
-}
 
   // We should kick of the animation of the rock around here
 
