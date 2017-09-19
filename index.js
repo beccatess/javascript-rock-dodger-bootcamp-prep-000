@@ -172,7 +172,7 @@ function moveDodgerRight(e) {
 
 
     var left = positionToInteger(dodger.style.left)
-    
+
     if (left <360) {
   dodger.style.left = `${left + 4}px`
             }
