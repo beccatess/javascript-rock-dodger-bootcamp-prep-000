@@ -133,13 +133,13 @@ function moveDodger(e) {
    * if the right arrow is pressed. (Check the constants
    * we've declared for you above.)
    * And be sure to use the functions declared below!
-   */
-   if (e.which === LEFT_ARROW){e.preventDefault();
+   */window.addEventListener("keydown",function(e){ if (e.which === LEFT_ARROW){e.preventDefault();
      moveDodgerLeft();
    e.stopPropagation();};
    else if (e.which === RIGHT_ARROW){e.preventDefault();
      moveDodgerRight();
    e.stopPropagation();};
+ )
 }
 
 function moveDodgerLeft(e) {
