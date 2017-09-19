@@ -171,7 +171,7 @@ function moveDodgerRight(e) {
   if (e.which === RIGHT_ARROW) {
 
 
-    var leftNumbers = dodger.style.left.replace('px', '')
+    var leftNumbers = positionToInteger(dodger.style.left)
     var left = parseInt(leftNumbers, 10)
     if (left <360) {
   dodger.style.left = `${left + 4}px`
